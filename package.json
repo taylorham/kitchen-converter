@@ -1,14 +1,22 @@
 {
-  "name": "react-starter-example",
+  "name": "kitchen-converter",
   "version": "0.1.0",
-  "description": "\"Beginner example app made in React with Webpack and Babel\"",
+  "description": "Unit converter for baking recipes!",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --hot",
     "build": "webpack"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taylorham/kitchen-converter.git"
+  },
+  "author": "taylorham",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorham/kitchen-converter/issues"
+  },
+  "homepage": "https://github.com/taylorham/kitchen-converter#readme",
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
@@ -22,7 +30,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.0",
     "eslint-plugin-react": "^6.2.0",
     "react": "^15.2.1",
-    "react-addons-update": "^15.2.1",
+    "react-bootstrap": "^0.30.3",
     "react-dom": "^15.2.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
